@@ -12,7 +12,7 @@ export default function Community() {
             <Hero
                 toptext={"Welcome to"}
                 maintext={"BitNorm Exchange"}
-                bottomtext={'is a community that unites people who are passionate about cryptocurrencies and investments in blockchain technologies.'}
+                bottomtext={'the platform that provides you with the tools to trade cryptocurrencies efficiently and profitably.'}
                 discord={true}
             />
             {/* patfomr */}
