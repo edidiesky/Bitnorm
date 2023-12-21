@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Button from "../ui/button";
 type HeroProps = {
   toptext?: string,
   maintext?: string,
@@ -19,13 +20,25 @@ const Hero: React.FC<HeroProps> = ({
   buttonpath2,
 }) => {
   return (
-    <div className="w-full font-sans bg-custom">
-      <div className="w-90 mx-auto w-custom flex item-center justify-center items-center">
-        <h2 className="text-3xl font-bold flex text-white column gap-8">
-          <span className="text-xl text-grey1 block">{toptext}</span>
-          {maintext}
-          <span className="text-xl text-grey1 block">{bottomtext}</span>
+    <div className="w-full font-sans bg-custom_1 py-16">
+      <div className="w-90 py-36 pb-40 mx-auto w-custom gap-12 flex flex-col item-center justify-center items-center">
+        <h2 className="text-5xl w-full sm:w-custom_2  sm:text-5xl md:text-7xl lg:text-8xl text-center font-bold text-white gap-8">
+          <span className="text-base md:text-xl font-light text-text_grey_1 block">{toptext}</span>
+          <span style={{lineHeight:"1.3"}} className="py-4 block">
+            {maintext}
+          </span>
+          <span className="text-base md:text-xl w-4/5 mx-auto font-light text-text_grey_1 block">{bottomtext}</span>
         </h2>
+        <div className="sm:w-custom-2 w-full mx-auto flex item-center justify-center gap-8">
+          <Button
+            buttontext1='Learn More'
+            type={true}
+          />
+
+          <Button
+            buttontext1='Launch App'
+          />
+        </div>
       </div>
     </div>
   );
