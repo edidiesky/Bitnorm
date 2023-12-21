@@ -3,7 +3,6 @@ import Hero from "@/components/common/Hero";
 import Market from "./_components/Market";
 import Platform from "./_components/Platform";
 import Support from "./_components/Support";
-import Newsletter from "./_components/Newsletter";
 import Footer from "./_components/Footer";
 
 export default function Analytics() {

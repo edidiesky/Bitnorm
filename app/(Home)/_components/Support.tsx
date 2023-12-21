@@ -31,7 +31,7 @@ const Support = () => {
 
                
             </h2>
-            <div className="py-4 sm:w-4/5 w-full grid grid-cols-2 gap-x-4 gap-y-8 sm:gap-y-0 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
+            <div className="py-4 sm:w-4/5 w-full grid grid-cols-1 gap-x-4 gap-y-8  md:grid-cols-2 lg:grid-cols-4">
                 {
                     supportList?.map((x?:any, index?:any)=> {
                         return <div className="w-full border-2 border-text_grey_3 flex flex-col justify-between rounded-xl py-8 px-4 gap-4">
