@@ -53,8 +53,8 @@ const Newsletter = () => {
             <button className='px-8 py-3 flex items-center gap-3 text-base rounded-full bg-text_dark_1 text-white font-sans font-medium'>
                 <Image
                     alt="Cotion"
-                    style={{ width: "40px", height: "40px" }}
-                    className=''
+                    style={{ width: "40px"}}
+                    className='w-100'
                     width={0}
                     sizes="100vw"
                     height={0}
