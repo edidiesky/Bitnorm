@@ -1,11 +1,12 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from 'next/navigation'
 
 const headerList = ["BNCommunity", "BNBusiness", "BNAnalytics", "BNExchange"];
 const headerList1 = [
   {
-    path:"",
+    path:"community",
     text:"BNCommunity"
   },
   {
@@ -23,13 +24,14 @@ const headerList1 = [
 ];
 
 const Header = () => {
+  const router = useRouter()
   return (
     <div className="w-full bg-custom_1 py-8">
       <div
         className="flex items-center justify-between max-w-custom mx-auto w-custom "
       >
         <div className="flex items-center gap-1">
-          <span className="flex items-center justify-center">
+          <Link href={`/`} className="flex items-center justify-center">
             <Image
               alt="Cotion"
               style={{ width: "60px", height: "60px" }}
@@ -40,7 +42,7 @@ const Header = () => {
               loading="lazy"
               src='/Bitnob_1.png'
             />
-          </span>
+          </Link>
           <h5 className="text-lg text-white font-medium">BitNorm
           </h5>
         </div>
@@ -49,9 +51,9 @@ const Header = () => {
         >
           {headerList1.map((x?:any, index?:any) => {
             return (
-              <Link href={`/${x.path}`} key={index} className="text-sm cursor-pointer hover:text-text_grey_1 text-white font-sans">
+              <span onClick={() => router.push(`/${x.path}`)} key={index} className="text-sm cursor-pointer hover:text-text_grey_1 text-white font-sans">
                 {x.text}
-              </Link>
+              </span>
             );
           })}
         </div>

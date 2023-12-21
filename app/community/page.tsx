@@ -11,8 +11,8 @@ export default function Community() {
             <Header />
             <Hero
                 toptext={"Welcome to"}
-                maintext={"BitNorm Analytics"}
-                bottomtext={'your reliable partner in the world of cryptocurrency.'}
+                maintext={"BitNorm Community"}
+                bottomtext={'is a community that unites people who are passionate about cryptocurrencies and investments in blockchain technologies.'}
                 discord={true}
             />
             {/* patfomr */}

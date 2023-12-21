@@ -29,7 +29,7 @@ const Hero: React.FC<HeroProps> = ({
           <span style={{ lineHeight: "1.3" }} className="py-4 block">
             {maintext}
           </span>
-          <span className="text-base md:text-xl w-4/5 mx-auto font-light text-text_grey_1 block">{bottomtext}</span>
+          <span className="text-base md:text-xl w-4/5 leading-loose mx-auto font-light text-text_grey_1 block">{bottomtext}</span>
         </h2>
         <div className="sm:w-custom-2 w-full mx-auto flex item-center justify-center gap-8">
           <Button
