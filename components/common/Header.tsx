@@ -1,7 +1,26 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 
 const headerList = ["BNCommunity", "BNBusiness", "BNAnalytics", "BNExchange"];
+const headerList1 = [
+  {
+    path:"",
+    text:"BNCommunity"
+  },
+  {
+    path:"business",
+    text:"BNBusiness"
+  },
+  {
+    path: "analytics",
+    text: "BNAnalytics"
+  },
+  {
+    path: "exchange",
+    text: "BNExchange"
+  }
+];
 
 const Header = () => {
   return (
@@ -25,17 +44,17 @@ const Header = () => {
           <h5 className="text-lg text-white font-medium">BitNorm
           </h5>
         </div>
-        <ul
+        <div
           className="hidden sm:hidden md:flex items-center gap-12 justify-center"
         >
-          {headerList.map((x, index) => {
+          {headerList1.map((x?:any, index?:any) => {
             return (
-              <li key={index} className="text-base cursor-pointer hover:text-text_grey_1 text-white font-sans">
-                {x}
-              </li>
+              <Link href={`/${x.path}`} key={index} className="text-sm cursor-pointer hover:text-text_grey_1 text-white font-sans">
+                {x.text}
+              </Link>
             );
           })}
-        </ul>
+        </div>
 
         <button className='px-8 py-3 rounded-full bg-text_grey_2 hover:bg-text_grey_1 text-text_dark_1 text-sm font-sans font-bold'>
           Launch App 

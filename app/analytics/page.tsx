@@ -2,7 +2,6 @@ import Header from "@/components/common/Header";
 import Hero from "@/components/common/Hero";
 import Market from "./_components/Market";
 import Platform from "./_components/Platform";
-import Chart from "./_components/Chart";
 import Support from "./_components/Support";
 import Newsletter from "./_components/Newsletter";
 import Footer from "./_components/Footer";
@@ -13,10 +12,10 @@ export default function Analytics() {
             <Header />
             <Hero
                 toptext={"Welcome to"}
-                maintext={"We work with crypto, blockchain, web3"}
+                maintext={"BitNorm Analytics"}
                 bottomtext={'your reliable partner in the world of cryptocurrency.'}
+                discord={true}
             />
-            <Chart />
             {/* patfomr */}
             <Platform />
             <Support />
