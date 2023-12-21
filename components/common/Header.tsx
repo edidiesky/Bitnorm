@@ -10,16 +10,18 @@ const Header = () => {
         className="flex items-center justify-between max-w-custom mx-auto w-custom "
       >
         <div className="flex items-center gap-1">
-          <Image
-            alt="Cotion"
-            style={{ width: "60px", height: "60px" }}
-            className=''
-            width={0}
-            sizes="100vw"
-            height={0}
-            loading="lazy"
-            src='/Bitnob_1.png'
-          />
+          <span className="flex items-center justify-center">
+            <Image
+              alt="Cotion"
+              style={{ width: "60px", height: "60px" }}
+              className=''
+              width={0}
+              sizes="100vw"
+              height={0}
+              loading="lazy"
+              src='/Bitnob_1.png'
+            />
+          </span>
           <h5 className="text-lg text-white font-medium">BitNorm
           </h5>
         </div>
