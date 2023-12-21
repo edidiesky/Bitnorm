@@ -50,17 +50,17 @@ const Newsletter = () => {
                 </span>
             </h2>
 
-            <button className='px-8 py-3 flex items-center gap-3 text-base rounded-full bg-text_dark_1 text-white font-sans font-medium'>
+            <button className='px-4 py-2 flex items-center gap-2 text-base rounded-full bg-text_dark_1 text-white font-sans font-medium'>
                 <Image
                     alt="Cotion"
-                    style={{ width: "40px"}}
+                    style={{ width: "auto"}}
                     className='w-100'
                     width={0}
                     sizes="100vw"
                     height={0}
                     loading="lazy"
                     src='/Bitnob.png'
-                />  Launch App
+                />  <span>Launch App</span>
             </button>
         </div>
     </div>
