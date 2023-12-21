@@ -22,7 +22,7 @@ const Hero: React.FC<HeroProps> = ({
   discord
 }) => {
   return (
-    <div className="w-full font-sans bg-custom_1 py-16">
+    <div className="w-full font-sans bg-custom_1 py-4">
       <div className="w-90 sm:py-20 md:py-36 pb-40 mx-auto w-custom gap-12 flex flex-col item-center justify-center items-center">
         <h2 className="text-5xl w-full sm:w-custom_2  sm:text-5xl md:text-7xl lg:text-8xl text-center font-bold text-white gap-8">
           <span className="text-base md:text-xl font-light text-text_grey_1 block">{toptext}</span>

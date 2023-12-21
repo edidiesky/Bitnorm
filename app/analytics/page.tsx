@@ -19,10 +19,7 @@ export default function Analytics() {
             {/* patfomr */}
             <Platform />
             <Support />
-            {/* Market */}
             <Market />
-            <Newsletter />
-            {/* footer */}
             <Footer />
         </main>
     );
