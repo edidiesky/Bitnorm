@@ -30,7 +30,7 @@ const Platform = () => {
                 height: "600px",
                 position: 'absolute', left: '-15%', top: "10%"
             }}
-            className='absolute'
+            className='absolute sm:hidden md:block'
             width={0}
             sizes="100vw"
             height={0}
@@ -45,7 +45,7 @@ const Platform = () => {
                 height: "600px",
                 position: 'absolute', right: '-10%', bottom: "-30%"
             }}
-            className='absolute'
+            className='absolute sm:hidden md:block'
             width={0}
             sizes="100vw"
             height={0}
