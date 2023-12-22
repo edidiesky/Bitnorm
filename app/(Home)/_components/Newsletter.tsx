@@ -20,14 +20,14 @@ const Newsletter = () => {
                 </h3>
             </div>
             <div className="flex-1 flex flex-col sm:flex-col md:flex-col lg:flex-row items-start md:items-start  lg:items-center gap-4">
-                <input type="text" placeholder="Enter your email" className="py-4 px-8 text-text_dark_1 flex-1 text-base rounded-xl bg-white" />
+                <input type="text" placeholder="Enter your email" className="py-4 px-8 sm:w-100 md:w-auto text-text_dark_1 flex-1 text-base rounded-xl bg-white" />
                 <button className='px-8 py-4 rounded-full bg-white text-text_dark_1 text-base font-sans font-bold'>
                     Sign Up
                 </button>
             </div>
         </div>
         <div className="w-custom max-w-custom md:w-custom_2 mx-auto py-16 justify-center flex items-start sm:items-start md:items-center flex-col gap-8">
-            <h2 className="text-5xl sm:text-5xl text-start sm:text-center md:text-7xl font-medium text-text_dark_1">
+            <h2 className="text-5xl sm:text-5xl text-start sm:text-start md:text-center md:text-7xl font-medium text-text_dark_1">
                 Launch Now
                 <span className="block text-sm md:text-xl w-full md:w-3/4 mx-0 md:mx-0 lg:mx-auto py-2 leading-snug text-text_grey_1 font-light">
                     Start your crypto journey in the decentralized finance space in a frictionless and permissionless environment

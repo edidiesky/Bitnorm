@@ -5,7 +5,7 @@ const Footer = () => {
     return <div style={{ background: "#242526" }} className="w-full py-16 px-8 sm:px-12 md:px-16 flex flex-col gap-12">
         <div className="w-custom rounded-2xl mx-auto flex sm:flex-col md:flex-row gap-16 max-w-custom">
             <div className="flex-1 flex items-center justify-between gap-12 sm:flex-col md:flex-row">
-                <div className="flex items-center gap-1">
+                <div className="flex w-full sm:flex-1 justify-end items-center gap-1">
                     <Image
                         alt="Cotion"
                         style={{ width: "60px", height: "60px" }}
