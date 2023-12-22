@@ -45,7 +45,7 @@ const Header = () => {
          
         </div>
         <div
-          className="hidden sm:hidden md:flex items-center gap-12 justify-center"
+          className="hidden md:hidden lg:flex items-center gap-12 justify-center"
         >
           {headerList1.map((x?:any, index?:any) => {
             return (
