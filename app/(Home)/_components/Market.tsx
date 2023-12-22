@@ -17,7 +17,7 @@ const Market = () => {
                     sizes="100vw"
                     height={0}
                     loading="lazy"
-                    src='/Coins.jpg'
+                    src='/Coins.svg'
                 />
             </picture>
         </div>
