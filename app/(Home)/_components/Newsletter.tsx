@@ -4,7 +4,7 @@ import Image from "next/image";
 const Newsletter = () => {
     return <div className="w-full py-8 flex flex-col gap-12">
         <div style={{ background: "#242526" }} className="w-custom rounded-2xl py-12 px-16 mx-auto flex flex-col sm:flex-col md:flex-col lg:flex-row gap-16 max-w-custom">
-            <div className="flex-1 flex items-center gap-4">
+            <div className="flex-1 sm:flex-col md:flex-row flex items-center gap-4">
                 <Image
                     alt="Cotion"
                     style={{ width: "40px", height: "40px" }}
