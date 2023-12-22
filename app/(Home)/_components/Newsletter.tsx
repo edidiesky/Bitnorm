@@ -27,7 +27,7 @@ const Newsletter = () => {
             </div>
         </div>
         <div className="w-custom max-w-custom md:w-custom_2 mx-auto py-16 justify-center flex items-start sm:items-start md:items-center flex-col gap-8">
-            <h2 className="text-5xl sm:text-5xl text-start sm:text-center md:text-7xl font-medium text-text_dark_1">
+            <h2 className="text-5xl sm:text-5xl sm:text-start md:text-center md:text-7xl font-medium text-text_dark_1">
                 Launch Now
                 <span className="block text-sm md:text-xl w-full md:w-3/4 mx-0 md:mx-0 lg:mx-auto py-2 leading-snug text-text_grey_1 font-light">
                     Start your crypto journey in the decentralized finance space in a frictionless and permissionless environment
