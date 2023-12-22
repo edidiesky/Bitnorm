@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Footer = () => {
     return <div style={{ background: "#242526" }} className="w-full py-16 px-8 sm:px-12 md:px-16 flex flex-col gap-12">
-        <div className="w-custom md:w-4/5 mx-auto lg:w-custom_2 flex flex-col gap-8 max-w-custom">
-            <div className="w-full flex sm:flex-col md:flex-row gap-16">
-                <div className="flex-1 flex md:item-center sm:item-start  justify-between gap-12 sm:flex-col md:flex-row">
+        <div className="w-custom md:w-4/5 mx-auto lg:w-custom_2 flex flex-col gap-4 max-w-custom">
+            <div className="w-full flex flex-col sm:flex-col md:flex-row gap-16">
+                <div className="flex-1 flex md:item-center sm:item-start  justify-between gap-8 flex-col sm:flex-col md:flex-row">
                     <div className="flex items-center gap-1">
                         <Image
                             alt="Cotion"

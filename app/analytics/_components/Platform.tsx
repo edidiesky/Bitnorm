@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const Platform = () => {
     return <div className="w-full bg-custom_1 py-4">
-        <div className="w-custom sm:mx-0 sm:w-full mx-auto flex flex-col justify-center items-center gap-16 max-w-custom">
+        <div className="w-custom md:w-4/5 mx-auto lg:w-custom_2 flex flex-col justify-center items-center gap-16 max-w-custom">
 
-            <div className="py-4 md:w-4/5 sm:w-full ">
-                <div className="w-custom mx-auto grid gap-y-12 sm:gap-y-12 grid-cols-1 gap-x-4 lg:gap-y-0 sm:grid-cols-1 md:grid-cols-2">
+            <div className="py-4 w-full ">
+                <div className="w-full grid gap-y-12 sm:gap-y-12 grid-cols-1 gap-x-4 lg:gap-y-0 sm:grid-cols-1 md:grid-cols-2">
                     <div className="w-full py-12 px-8 flex flex-col gap-12 bg-text_grey_3 rounded-2xl">
                         <h3 className="text-4xl font-sans sm:text-5xl md:text-6xl text-white font-medium">
                             Get a full overview

@@ -18,7 +18,7 @@ const Market = () => {
             loading="lazy"
             src='/Union_1.svg'
         />
-        <div className="bg-text_grey_3 py-16 px-12 rounded-2xl w-4/5 sm:mx-0 md:w-4/5 lg:w-custom_2 md:mx-auto flex flex-col gap-8">
+        <div className="bg-text_grey_3 py-16 px-12 rounded-2xl w-custom md:w-4/5 mx-auto lg:w-custom_2  flex flex-col gap-8">
             <h3 className="text-4xl font-medium text-white md:text-6xl">Join BitNorm Analytics today</h3>
             <span className="text-sm text-text_grey_1 w-full leading-loose md:w-full font-light">We strive to provide the most complete information to our clients to help them make the right decisions in cryptocurrency investing and trading. Our team of experts is always ready to answer your questions and provide consultation.</span>
         </div>
