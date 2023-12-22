@@ -32,7 +32,7 @@ const Hero: React.FC<HeroProps> = ({
           height: "600px",
           position: 'absolute', left: '-10%', top: "5%"
         }}
-        className='absolute sm:hidden md:block'
+        className='absolute hidden sm:hidden md:block'
         width={0}
         sizes="100vw"
         height={0}
@@ -47,7 +47,7 @@ const Hero: React.FC<HeroProps> = ({
           height: "600px",
           position: 'absolute', right: '-15%', bottom: "-30%"
         }}
-        className='absolute sm:hidden md:block'
+        className='absolute hidden sm:hidden md:block'
         width={0}
         sizes="100vw"
         height={0}
