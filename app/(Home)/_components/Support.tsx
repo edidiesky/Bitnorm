@@ -23,7 +23,7 @@ const supportList = [
 const Support = () => {
     return <div className="w-full bg-custom_1 py-40">
         <div className="w-custom mx-auto flex flex-col justify-center items-center gap-16 max-w-custom">
-            <h2 className="text-4xl sm:w-full sm:text-6xl md:w-custom_2 text-center font-sans font-medium text-white">
+            <h2 className="text-4xl  sm:text-6xl w-full sm:w-full md:w-3/4 text-center font-sans font-medium text-white">
                 <span className="block py-4 w-full mx-auto sm:w-4/5 text-base sm:text-xl text-text_grey_1 font-normal">
                     Here are a few reasons why you should choose BitNorm
                 </span>

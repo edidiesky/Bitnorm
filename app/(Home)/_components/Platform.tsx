@@ -23,14 +23,14 @@ const platformList = [
 const Platform = () => {
     return <div className="w-full bg-custom_1 py-40 pt-52">
         <div className="w-custom mx-auto flex flex-col justify-center items-center gap-16 max-w-custom">
-            <h2 className="text-5xl sm:text-6xl w-full sm:w-3/4 text-center font-sans font-medium text-white">
+            <h2 className="text-5xl sm:text-6xl w-full sm:w-full md:w-3/4 text-center font-sans font-medium text-white">
                 Bitnorm Platforms
 
-                <span className="block py-4 w-full mx-auto sm:w-4/5 text-base sm:text-xl text-text_grey_1 font-normal">
+                <span className="block py-4 w-full sm:w-full mx-auto md:w-4/5 text-base sm:text-xl text-text_grey_1 font-normal">
                     By leveraging BitNorm, you will have click away access to guides, tools, goods, and services all of which feed into your understanding of the cryptocurrencies ecosystem and friends, mentors, and consultants to hold your hand when you need it. What more could you ask for?
                 </span>
             </h2>
-            <div className="py-4 sm:w-4/5 w-full grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
+            <div className="py-4 sm:w-4/5 w-full grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                 {
                     platformList?.map((x?:any, index?:any)=> {
                         return <div key={index} className="w-full border-2 border-text_grey_3 flex flex-col justify-between rounded-xl py-8 px-4 gap-4">
