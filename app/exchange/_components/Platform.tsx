@@ -1,33 +1,52 @@
 "use client"
 import Image from "next/image";
 
+
+const offferlist = [
+    {
+        text: "Listing of popular cryptocurrencies",
+        image: "/offer_1.svg"
+    },
+    {
+        text: "Copy trading",
+        image: "/offer_2.svg"
+    }, {
+        text: "Package trading",
+        image: "/offer_3.svg"
+
+    }, {
+        text: "Trading bot",
+        image: "/offer_4.svg"
+
+    },
+]
+
 const Platform = () => {
     return <div className="w-full bg-custom_1 py-4 flex justify-center items-center">
-        <div className="w-custom sm:mx-0 sm:w-full mx-auto flex flex-col justify-center items-center gap-16 max-w-custom">
+        <div className="w-custom mx-auto flex flex-col items-start gap-16 max-w-custom">
+            <h2 className="text-4xl text-start sm:w-full sm:mx-0 md:w-4/5 md:mx-auto sm:text-6xl font-sans font-medium text-white">
+                We offer a range of features such as:
+            </h2>
+            <div className="py-4 sm:w-full sm:mx-0 md:w-4/5 md:mx-auto grid grid-cols-1 sm:grid-cols-1 gap-x-4 gap-y-16 md:grid-cols-2">
+                {
+                    offferlist?.map((x?: any, index?: any) => {
+                        return <div key={index} className="w-full bg-custom_1 border-2 border-text_grey_3 flex flex-col rounded-3xl py-4 pt-8 px-4 gap-12">
+                            <div className="w-full flex flex-col gap-4">
+                                <h3 className="text-2xl md:text-3xl leading-relaxed font-medium text-white">{x?.text}</h3>
+                            </div>
+                            <Image
+                                alt="Cotion"
+                                className='w-full'
+                                width={0}
+                                sizes="100vw"
+                                height={0}
 
-            <div className="py-4 md:w-4/5 sm:w-full flex justify-center items-center">
-                <div className="w-custom mx-auto grid gap-y-12 sm:gap-y-12 grid-cols-1 gap-x-4 lg:gap-y-0 sm:grid-cols-1 md:grid-cols-2">
-                    <div className="w-full py-12 px-8 flex flex-col gap-12 bg-text_grey_3 rounded-2xl">
-                        <h3 className="text-4xl font-sans sm:text-5xl md:text-6xl text-white font-medium">
-                            We are here to help
+                                src={x?.image}
+                            />
+                        </div>
+                    })
+                }
 
-
-                        </h3>
-                        <span className="block leading-loose font-sans py-2 font-light text-sm text-text_grey_1">
-                            you learn more about cryptocurrencies, share your knowledge and experience, and find investors for your projects. We offer a wide range of resources and tools for working with cryptocurrencies and blockchain technologies, including training materials, articles, video tutorials, platforms and much more.
-                        </span>
-                    </div>
-
-                    <Image
-                        alt="Cotion"
-                        className='w-full'
-                        width={0}
-                        sizes="100vw"
-                        height={0}
-
-                        src='/help_1.svg'
-                    />
-                </div>
             </div>
 
         </div>
