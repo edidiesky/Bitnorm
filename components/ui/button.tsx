@@ -14,7 +14,7 @@ const Button: React.FC<ButtonProps> = ({ buttontext1, type, discord }) => {
     }
 
     if (discord) {
-        return <button style={{ background: "#7289DA" }} className='px-8 flex items-center gap-3 py-4 rounded-full text-text_dark_1 text-base font-sans font-bold'>
+        return <button style={{ background: "#7289DA" }} className='px-8 flex items-center justify-center gap-3 py-4 rounded-full text-text_dark_1 text-base font-sans font-bold'>
             <FaDiscord color={"#fff"} fontSize={'18px'} />  {buttontext1}
         </button>
     }
