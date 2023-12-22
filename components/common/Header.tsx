@@ -1,16 +1,14 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from 'next/navigation'
 
-const headerList = ["BNCommunity", "BNBusiness", "BNAnalytics", "BNExchange"];
 const headerList1 = [
   {
     path:"community",
     text:"BNCommunity"
   },
   {
-    path:"business",
+    path:"",
     text:"BNBusiness"
   },
   {
@@ -24,7 +22,6 @@ const headerList1 = [
 ];
 
 const Header = () => {
-  const router = useRouter()
   return (
     <div className="w-full bg-custom_1 py-8">
       <div
@@ -42,18 +39,19 @@ const Header = () => {
               loading="lazy"
               src='/Bitnob_1.png'
             />
+            <span className="text-lg -mt-2 text-white font-medium">BitNorm
+            </span>
           </Link>
-          <h5 className="text-lg text-white font-medium">BitNorm
-          </h5>
+         
         </div>
         <div
           className="hidden sm:hidden md:flex items-center gap-12 justify-center"
         >
           {headerList1.map((x?:any, index?:any) => {
             return (
-              <span onClick={() => router.push(`/${x.path}`)} key={index} className="text-sm cursor-pointer hover:text-text_grey_1 text-white font-sans">
-                {x.text}
-              </span>
+              <Link legacyBehavior href={`/${x.path}`} key={index} className="text-sm cursor-pointer hover:text-text_grey_1 text-white font-sans" passHref>
+                <a target="_blank" className="text-sm cursor-pointer hover:text-text_grey_1 text-white font-sans" rel="noopener noreferrer"> {x.text}</a> 
+              </Link>
             );
           })}
         </div>
