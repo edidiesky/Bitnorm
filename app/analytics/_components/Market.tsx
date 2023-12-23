@@ -9,9 +9,9 @@ const Market = () => {
             style={{
                 width: "500px",
                 height: "600px",
-                position: 'absolute', left: '12%', top: "5%"
+                position: 'absolute', left: '-11%', top: "-5%"
             }}
-            className='absolute sm:hidden md:block'
+            className='absolute hidden sm:hidden md:block'
             width={0}
             sizes="100vw"
             height={0}

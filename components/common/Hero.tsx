@@ -62,7 +62,7 @@ const Hero: React.FC<HeroProps> = ({
           </span>
           <span className="text-base md:text-xl w-full md:w-4/5 leading-loose mx-0 sm:text-start md:text-center sm:mx-0 md:mx-auto font-light text-text_grey_1 block">{bottomtext}</span>
         </h2>
-        <div className="flex-col sm:flex-col md:flex-row sm:justify-start md:justify-center mx-0 sm:mx-0 sm:w-custom-2 w-full md:mx-auto flex gap-8">
+        <div className="flex-col sm:flex-row sm:justify-start md:justify-center mx-0 sm:mx-0 sm:w-custom-2 w-full md:mx-auto flex gap-4 sm:gap-4 md:gap-8">
           <Button
             buttontext1='Learn More'
             type={true}

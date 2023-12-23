@@ -3,22 +3,41 @@ import Image from "next/image";
 
 const supportList = [
     {
-        text: "BNCommunity",
-        subtext: "BN connect is a platform that allows our users from all over the world to connect and use our social toolbox."
+        text: "Ethereum",
+        subtext: "ETH",
+        image:"./eth.svg"
     },
-    {
-        text: "BNBusiness",
-        subtext: "Matchmaking, advertisements, job listings and buying and selling of services and goods."
-    },
-    {
-        text: "BNAnalytics",
-        subtext: "A one-stop data aggregator for the cryptocurrency ecosystem"
-    },
-    {
-        text: "BNExchange",
-        subtext: "Fully fletched exchange with many trading options and a powerful trading toolbox."
-    }
+     {
+         text: "Bitcoin",
+         subtext: "BTC",
+         image: "./btc.svg"
 
+    },
+     {
+         text: "Bitcoin Cash",
+         subtext: "BCH",
+        image:"./bitcoin.svg"
+    },
+    {
+        text: "Dogecoin",
+        subtext: "DOGE",
+        image: "./dodge.svg"
+    },
+    {
+        text: "Litecoin",
+        subtext: "LTC",
+        image: "./lite.svg"
+    },
+    {
+        text: "Binance Chain",
+        subtext: "BEP2",
+        image: "./bep2.svg"
+    },
+    {
+        text: "THORChain",
+        subtext: "RUNE",
+        image: "./torchain.svg"
+    },
 ]
 const Support = () => {
     return <div className="w-full bg-custom_1 py-40">
@@ -34,12 +53,21 @@ const Support = () => {
             <div className="py-4 md:w-4/5 sm:w-full w-full grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
                 {
                     supportList?.map((x?:any, index?:any)=> {
-                        return <div key={index} className="w-full border-2 border-text_grey_3 flex flex-col justify-between rounded-xl py-8 px-4 gap-4">
-                          <div className="w-full flex flex-col gap-4">
-                                <h5 className="font-medium text-xl text-white">{x?.text}</h5>
-                                <h4 className="text-sm text-text_grey_1 font-light">{x?.subtext}</h4>
+                        return <div key={index} className="w-full border-2 border-text_grey_3 flex flex-col items-center justify-between py-8 px-4 gap-4">
+                            <Image
+                                alt="Cotion"
+                                className='w-20 h-20 mx-auto'
+                                width={0}
+                                sizes="100vw"
+                                height={0}
+                                loading="lazy"
+                                src={x?.image}
+                            />
+                         
+                          <div className="w-full flex flex-col gap-2">
+                                <h5 className="font-medium text-center w-full text-xl text-white">{x?.text}</h5>
+                                <h4 className="text-sm text-center w-full text-text_grey_1 font-light">{x?.subtext}</h4>
                           </div>
-                            <span className="w-full py-4 px-8 border-2 border-text_grey_3 rounded-xl text-center text-sm text-white">Learn More</span>
                         </div>
                     })
                 }
