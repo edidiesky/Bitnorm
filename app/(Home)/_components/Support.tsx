@@ -178,7 +178,7 @@ const Support = () => {
                     w-[112px] h-[175px] relative flex items-center justify-center flex-col
                     before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
                     ">
-                            <div className="absolute w-[12px] h-[12px] rounded-full bg-text_blue_1 right-[0%]"></div>
+                            <div className="absolute w-[12px] h-[12px] rounded-full bg-text_blue_1 right-[1%]"></div>
                         </span>
                     </div>
 
