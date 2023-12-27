@@ -5,18 +5,18 @@ const supportList = [
     {
         text: "Ethereum",
         subtext: "ETH",
-        image:"./eth.svg"
+        image: "./eth.svg"
     },
-     {
-         text: "Bitcoin",
-         subtext: "BTC",
-         image: "./btc.svg"
+    {
+        text: "Bitcoin",
+        subtext: "BTC",
+        image: "./btc.svg"
 
     },
-     {
-         text: "Bitcoin Cash",
-         subtext: "BCH",
-        image:"./bitcoin.svg"
+    {
+        text: "Bitcoin Cash",
+        subtext: "BCH",
+        image: "./bitcoin.svg"
     },
     {
         text: "Dogecoin",
@@ -48,7 +48,7 @@ const Support = () => {
                 </span>
                 We support trading across a variety of blockchains
 
-               
+
             </h2>
             <div className="md:w-4/5 sm:w-full w-full mx-auto flex flex-col">
                 <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
@@ -152,7 +152,7 @@ const Support = () => {
                 </div>
                 <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
                     <div className="w-full flex items-center">
-                
+
                         <span className="
                     w-[152px] relative  flex items-center justify-center flex-col
                     ">
@@ -166,19 +166,19 @@ const Support = () => {
                                 sizes="100vw"
                                 height={0}
                                 loading="lazy"
-                                src={supportList[2]?.image}
+                                src={supportList[4]?.image}
                             />
 
                             <div className="w-full flex flex-col gap-2">
-                                <h5 className="font-base text-center w-full text-xl text-white">{supportList[2]?.text}</h5>
-                                <h4 className="text-sm text-center w-full text-text_grey_1 font-light">{supportList[2]?.subtext}</h4>
+                                <h5 className="font-base text-center w-full text-xl text-white">{supportList[4]?.text}</h5>
+                                <h4 className="text-sm text-center w-full text-text_grey_1 font-light">{supportList[4]?.subtext}</h4>
                             </div>
                         </div>
                         <span className="
                     w-[112px] h-[175px] relative flex items-center justify-center flex-col
                     before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
                     ">
-                            <div className="absolute w-[12px] h-[12px] rounded-full bg-text_blue_1 left-[42%] -top-[2%]"></div>
+                            <div className="absolute w-[12px] h-[12px] rounded-full bg-text_blue_1 right-[0%]"></div>
                         </span>
                     </div>
 
@@ -188,7 +188,6 @@ const Support = () => {
                     w-[112px] h-[175px] relative flex items-center justify-center flex-col
                     before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
                     ">
-                            <div className="absolute w-[12px] h-[12px] rounded-full bg-text_blue_1 left-[42%] -top-[2%]"></div>
                         </span>
                         <div className="w-full border-2 border-text_grey_3 flex flex-col items-center justify-between py-8 px-4 gap-4">
 
@@ -199,12 +198,12 @@ const Support = () => {
                                 sizes="100vw"
                                 height={0}
                                 loading="lazy"
-                                src={supportList[2]?.image}
+                                src={supportList[5]?.image}
                             />
 
                             <div className="w-full flex flex-col gap-2">
-                                <h5 className="font-base text-center w-full text-xl text-white">{supportList[2]?.text}</h5>
-                                <h4 className="text-sm text-center w-full text-text_grey_1 font-light">{supportList[2]?.subtext}</h4>
+                                <h5 className="font-base text-center w-full text-xl text-white">{supportList[5]?.text}</h5>
+                                <h4 className="text-sm text-center w-full text-text_grey_1 font-light">{supportList[5]?.subtext}</h4>
                             </div>
                         </div>
                         <span className="
@@ -212,11 +211,42 @@ const Support = () => {
                     before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
                     ">
                         </span>
-                        
+
+                    </div>
+                    <div className="w-full flex items-center">
+
+                        <span className="
+                    w-[112px] h-[175px] relative flex items-center justify-center flex-col
+                    before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
+                    ">
+                        </span>
+                        <div className="w-full border-2 border-text_grey_3 flex flex-col items-center justify-between py-8 px-4 gap-4">
+
+                            <Image
+                                alt="Cotion"
+                                className='w-16 h-16 mx-auto'
+                                width={0}
+                                sizes="100vw"
+                                height={0}
+                                loading="lazy"
+                                src={supportList[6]?.image}
+                            />
+
+                            <div className="w-full flex flex-col gap-2">
+                                <h5 className="font-base text-center w-full text-xl text-white">{supportList[6]?.text}</h5>
+                                <h4 className="text-sm text-center w-full text-text_grey_1 font-light">{supportList[6]?.subtext}</h4>
+                            </div>
+                        </div>
+                        <span className="
+                    w-[112px] h-[175px] relative flex items-center justify-center flex-col
+                    before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
+                    ">
+                        </span>
+
                     </div>
                 </div>
-           </div>
-         
+            </div>
+
         </div>
     </div>
 }
