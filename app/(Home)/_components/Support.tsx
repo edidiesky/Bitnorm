@@ -50,29 +50,172 @@ const Support = () => {
 
                
             </h2>
-            <div className="py-4 md:w-4/5 sm:w-full w-full grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
-                {
-                    supportList?.map((x?:any, index?:any)=> {
-                        return <div key={index} className="w-full border-2 border-text_grey_3 flex flex-col items-center justify-between py-8 px-4 gap-4">
+            <div className="md:w-4/5 sm:w-full w-full mx-auto flex flex-col">
+                <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
+                    <div className="w-full flex items-center">
+                        <div className="w-full border-2 border-text_grey_3 flex flex-col items-center justify-between py-8 px-4 gap-4">
                             <Image
                                 alt="Cotion"
-                                className='w-20 h-20 mx-auto'
+                                className='w-16 h-16 mx-auto'
                                 width={0}
                                 sizes="100vw"
                                 height={0}
                                 loading="lazy"
-                                src={x?.image}
+                                src={supportList[0]?.image}
                             />
-                         
-                          <div className="w-full flex flex-col gap-2">
-                                <h5 className="font-medium text-center w-full text-xl text-white">{x?.text}</h5>
-                                <h4 className="text-sm text-center w-full text-text_grey_1 font-light">{x?.subtext}</h4>
-                          </div>
-                        </div>
-                    })
-                }
 
-            </div>
+                            <div className="w-full flex flex-col gap-2">
+                                <h5 className="font-base text-center w-full text-xl text-white">{supportList[0]?.text}</h5>
+                                <h4 className="text-sm text-center w-full text-text_grey_1 font-light">{supportList[0]?.subtext}</h4>
+                            </div>
+                        </div>
+                        <span className="
+                    w-[122px] h-[175px]  mt-32 relative  flex items-center justify-center flex-col
+                    before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
+                    after:block after:w-1 after:h-full after:border-2 after:border-dotted after:border-text_grey_3
+                    ">
+                            <div className="absolute w-[12px] h-[12px] rounded-full bg-text_blue_1 left-[42%] -top-[2%]"></div>
+                        </span>
+                    </div>
+                    <div className="w-full flex items-center">
+                        <div className="w-full border-2 border-text_grey_3 flex flex-col items-center justify-between py-8 px-4 gap-4">
+                            <Image
+                                alt="Cotion"
+                                className='w-16 h-16 mx-auto'
+                                width={0}
+                                sizes="100vw"
+                                height={0}
+                                loading="lazy"
+                                src={supportList[1]?.image}
+                            />
+
+                            <div className="w-full flex flex-col gap-2">
+                                <h5 className="font-base text-center w-full text-xl text-white">{supportList[1]?.text}</h5>
+                                <h4 className="text-sm text-center w-full text-text_grey_1 font-light">{supportList[1]?.subtext}</h4>
+                            </div>
+                        </div>
+                        <span className="
+                    w-[122px] h-[175px]  mt-32 relative  flex items-center justify-center flex-col
+                    before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
+                    after:block after:w-1 after:h-full after:border-2 after:border-dotted after:border-text_grey_3
+                    ">
+                            <div className="absolute w-[12px] h-[12px] rounded-full bg-text_blue_1 left-[42%] -top-[2%]"></div>
+                        </span>
+                    </div>
+                    <div className="w-full flex items-center">
+                        <div className="w-full border-2 border-text_grey_3 flex flex-col items-center justify-between py-8 px-4 gap-4">
+                            <Image
+                                alt="Cotion"
+                                className='w-16 h-16 mx-auto'
+                                width={0}
+                                sizes="100vw"
+                                height={0}
+                                loading="lazy"
+                                src={supportList[2]?.image}
+                            />
+
+                            <div className="w-full flex flex-col gap-2">
+                                <h5 className="font-base text-center w-full text-xl text-white">{supportList[2]?.text}</h5>
+                                <h4 className="text-sm text-center w-full text-text_grey_1 font-light">{supportList[2]?.subtext}</h4>
+                            </div>
+                        </div>
+                        <span className="
+                    w-[122px] h-[175px]  mt-32 relative  flex items-center justify-center flex-col
+                    before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
+                    after:block after:w-1 after:h-full after:border-2 after:border-dotted after:border-text_grey_3
+                    ">
+                            <div className="absolute w-[12px] h-[12px] rounded-full bg-text_blue_1 left-[42%] -top-[2%]"></div>
+                        </span>
+                    </div>
+                    <div className="w-full flex items-center">
+                        <div className="w-full border-2 border-text_grey_3 flex flex-col items-center justify-between py-8 px-4 gap-4">
+                            <Image
+                                alt="Cotion"
+                                className='w-16 h-16 mx-auto'
+                                width={0}
+                                sizes="100vw"
+                                height={0}
+                                loading="lazy"
+                                src={supportList[3]?.image}
+                            />
+
+                            <div className="w-full flex flex-col gap-2">
+                                <h5 className="font-base text-center w-full text-xl text-white">{supportList[3]?.text}</h5>
+                                <h4 className="text-sm text-center w-full text-text_grey_1 font-light">{supportList[3]?.subtext}</h4>
+                            </div>
+                        </div>
+                        <span className="
+                    w-[122px] h-[175px]  mt-32 relative  flex items-center justify-center flex-col
+                    ">
+                        </span>
+                    </div>
+                </div>
+                <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
+                    <div className="w-full flex items-center">
+                
+                        <span className="
+                    w-[152px] relative  flex items-center justify-center flex-col
+                    ">
+                        </span>
+                        <div className="w-full border-2 border-text_grey_3 flex flex-col items-center justify-between py-8 px-4 gap-4">
+
+                            <Image
+                                alt="Cotion"
+                                className='w-16 h-16 mx-auto'
+                                width={0}
+                                sizes="100vw"
+                                height={0}
+                                loading="lazy"
+                                src={supportList[2]?.image}
+                            />
+
+                            <div className="w-full flex flex-col gap-2">
+                                <h5 className="font-base text-center w-full text-xl text-white">{supportList[2]?.text}</h5>
+                                <h4 className="text-sm text-center w-full text-text_grey_1 font-light">{supportList[2]?.subtext}</h4>
+                            </div>
+                        </div>
+                        <span className="
+                    w-[112px] h-[175px] relative flex items-center justify-center flex-col
+                    before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
+                    ">
+                            <div className="absolute w-[12px] h-[12px] rounded-full bg-text_blue_1 left-[42%] -top-[2%]"></div>
+                        </span>
+                    </div>
+
+                    <div className="w-full flex items-center">
+
+                        <span className="
+                    w-[112px] h-[175px] relative flex items-center justify-center flex-col
+                    before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
+                    ">
+                            <div className="absolute w-[12px] h-[12px] rounded-full bg-text_blue_1 left-[42%] -top-[2%]"></div>
+                        </span>
+                        <div className="w-full border-2 border-text_grey_3 flex flex-col items-center justify-between py-8 px-4 gap-4">
+
+                            <Image
+                                alt="Cotion"
+                                className='w-16 h-16 mx-auto'
+                                width={0}
+                                sizes="100vw"
+                                height={0}
+                                loading="lazy"
+                                src={supportList[2]?.image}
+                            />
+
+                            <div className="w-full flex flex-col gap-2">
+                                <h5 className="font-base text-center w-full text-xl text-white">{supportList[2]?.text}</h5>
+                                <h4 className="text-sm text-center w-full text-text_grey_1 font-light">{supportList[2]?.subtext}</h4>
+                            </div>
+                        </div>
+                        <span className="
+                    w-[112px] h-[175px] relative flex items-center justify-center flex-col
+                    before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
+                    ">
+                        </span>
+                        
+                    </div>
+                </div>
+           </div>
          
         </div>
     </div>
