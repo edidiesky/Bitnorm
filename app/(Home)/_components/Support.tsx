@@ -50,8 +50,8 @@ const Support = () => {
 
 
             </h2>
-            <div className="md:w-4/5 sm:w-full w-full mx-auto flex flex-col">
-                <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
+            <div className="md:w-4/5 sm:w-full gap-y-8 xl:gap-y-0 w-full mx-auto flex flex-col">
+                <div className="w-full gap-y-8 xl:gap-y-0 gap-x-8 xl:gap-x-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
                     <div className="w-full flex items-center">
                         <div className="w-full border-2 border-text_grey_3 flex flex-col items-center justify-between py-8 px-4 gap-4">
                             <Image
@@ -69,8 +69,8 @@ const Support = () => {
                                 <h4 className="text-sm text-center w-full text-text_grey_1 font-light">{supportList[0]?.subtext}</h4>
                             </div>
                         </div>
-                        <span className="
-                    w-[122px] h-[175px]  mt-32 relative  flex items-center justify-center flex-col
+                        <span className="hidden lg:hidden xl:flex
+                    w-[122px] h-[175px]  mt-32 relative  items-center justify-center flex-col
                     before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
                     after:block after:w-1 after:h-full after:border-2 after:border-dotted after:border-text_grey_3
                     ">
@@ -95,7 +95,8 @@ const Support = () => {
                             </div>
                         </div>
                         <span className="
-                    w-[122px] h-[175px]  mt-32 relative  flex items-center justify-center flex-col
+                        hidden lg:hidden xl:flex
+                    w-[122px] h-[175px]  mt-32 relative items-center justify-center flex-col
                     before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
                     after:block after:w-1 after:h-full after:border-2 after:border-dotted after:border-text_grey_3
                     ">
@@ -120,7 +121,8 @@ const Support = () => {
                             </div>
                         </div>
                         <span className="
-                    w-[122px] h-[175px]  mt-32 relative  flex items-center justify-center flex-col
+                        hidden lg:hidden xl:flex
+                    w-[122px] h-[175px]  mt-32 relative items-center justify-center flex-col
                     before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
                     after:block after:w-1 after:h-full after:border-2 after:border-dotted after:border-text_grey_3
                     ">
@@ -145,16 +147,18 @@ const Support = () => {
                             </div>
                         </div>
                         <span className="
-                    w-[122px] h-[175px]  mt-32 relative  flex items-center justify-center flex-col
+                        hidden lg:hidden xl:flex
+                    w-[122px] h-[175px]  mt-32 relative items-center justify-center flex-col
                     ">
                         </span>
                     </div>
                 </div>
-                <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
+                <div className="w-full gap-y-8 xl:gap-y-0 gap-x-8 xl:gap-x-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
                     <div className="w-full flex items-center">
 
                         <span className="
-                          w-[62px] relative  flex items-center justify-center flex-col
+                        hidden lg:hidden xl:flex
+                          w-[62px] relative  items-center justify-center flex-col
                         ">
                         </span>
                         <div className="w-full border-2 border-text_grey_3 flex flex-col items-center justify-between py-8 px-4 gap-4">
@@ -175,7 +179,7 @@ const Support = () => {
                             </div>
                         </div>
                         <span className="
-                        w-[112px] h-[175px] relative flex items-center justify-center flex-col
+                        w-[112px] h-[175px] relative hidden lg:hidden xl:flex items-center justify-center flex-col
                         before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
                         ">
                             <div className="absolute w-[12px] h-[12px] rounded-full bg-text_blue_1 right-[20%]"></div>
@@ -185,7 +189,8 @@ const Support = () => {
                     <div className="w-full flex items-center">
 
                         <span className="
-                    w-[42px] h-[175px] relative flex items-center justify-center flex-col
+                        hidden lg:hidden xl:flex
+                    w-[42px] h-[175px] relative items-center justify-center flex-col
                     before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
                     ">
                         </span>
@@ -207,7 +212,8 @@ const Support = () => {
                             </div>
                         </div>
                         <span className="
-                    w-[112px] h-[175px] relative flex items-center justify-center flex-col
+                        hidden lg:hidden xl:flex
+                    w-[112px] h-[175px] relative items-center justify-center flex-col
                     before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
                     ">
                             <div className="absolute w-[12px] h-[12px] rounded-full bg-text_blue_1 right-[40%]"></div>
@@ -233,7 +239,7 @@ const Support = () => {
                             </div>
                         </div>
                         <span className="
-                     w-[162px] h-[175px] relative flex items-center justify-center flex-col
+                     w-[162px] h-[175px] relative hidden lg:hidden xl:flex items-center justify-center flex-col
                     ">
                         </span>
 
