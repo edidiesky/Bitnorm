@@ -75,3 +75,21 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+ .char {
+    overflow: hidden !important;
+  }
+   .word {
+    overflow: hidden !important;
+  }
+
+   .line {
+    overflow: hidden !important;
+  }
+
+
+
+  .target {
+  font-kerning: none;
+}
