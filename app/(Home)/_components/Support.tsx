@@ -43,12 +43,24 @@ const Support = () => {
     return <div className="w-full bg-custom_1 py-40">
         <div className="w-custom mx-auto flex flex-col justify-center items-center gap-16 max-w-custom">
             <h2 className="text-4xl  sm:text-6xl w-full sm:w-full md:w-3/4 text-center font-sans font-medium text-white">
-                <span className="block py-4 w-full mx-auto sm:w-4/5 text-base sm:text-xl text-text_grey_1 font-normal">
-                    Here are a few reasons why you should choose BitNorm
-                </span>
-                We support trading across a variety of blockchains
-
-
+               <div className="w-full overflow-hidden">
+                    <span
+                        data-aos="fade-up"
+                        data-aos-duration="600"
+                        data-aos-delay="100"
+                        className="block py-4 w-full mx-auto sm:w-4/5 text-base sm:text-xl text-text_grey_1 font-normal">
+                        Here are a few reasons why you should choose BitNorm
+                    </span>
+               </div>
+                <div className="w-full overflow-hidden">
+                    <span
+                        data-aos="fade-up"
+                        data-aos-duration="600"
+                        data-aos-delay="100"
+                    >
+                        We support trading across a variety of blockchains
+                    </span>
+                </div>
             </h2>
             <div className="md:w-4/5 sm:w-full gap-y-8 xl:gap-y-0 w-full mx-auto flex flex-col">
                 <div className="w-full gap-y-8 xl:gap-y-0 gap-x-8 xl:gap-x-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">

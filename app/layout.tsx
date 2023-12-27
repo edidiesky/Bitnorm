@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { AOSInit } from '@/components/common/aos'
 
 export const metadata: Metadata = {
   title: 'BitNorm',
@@ -13,6 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <AOSInit />
       <body>{children}</body>
     </html>
   )

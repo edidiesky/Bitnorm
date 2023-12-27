@@ -54,16 +54,35 @@ const Platform = () => {
         />
         <div className="w-custom mx-auto flex flex-col justify-center items-center gap-16 max-w-custom">
             <h2 className="text-5xl sm:text-6xl w-full sm:w-full md:w-custom_2 text-center font-sans font-medium text-white">
-                Bitnorm Platforms
+                <div className="w-full overflow-hidden">
+                    <span
+                        data-aos="fade-up"
+                        data-aos-duration="600"
+                        data-aos-delay="100"
+                    >
+                        Bitnorm Platforms
+                    </span>
+                </div>
 
-                <span className="block py-4 w-full sm:w-full mx-auto md:w-4/5 text-base sm:text-xl text-text_grey_1 font-normal">
-                    By leveraging BitNorm, you will have click away access to guides, tools, goods, and services all of which feed into your understanding of the cryptocurrencies ecosystem and friends, mentors, and consultants to hold your hand when you need it. What more could you ask for?
-                </span>
+
+                <div className="w-full overflow-hidden">
+                    <span
+                        data-aos="fade-up"
+                        data-aos-duration="700"
+                        data-aos-delay="300"
+                        className="block py-4 w-full sm:w-full mx-auto md:w-4/5 text-base sm:text-xl text-text_grey_1 font-normal">
+                        By leveraging BitNorm, you will have click away access to guides, tools, goods, and services all of which feed into your understanding of the cryptocurrencies ecosystem and friends, mentors, and consultants to hold your hand when you need it. What more could you ask for?
+                    </span>
+                </div>
             </h2>
             <div className="py-4 md:w-4/5 sm:w-full w-full grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
                 {
                     platformList?.map((x?: any, index?: any) => {
-                        return <div key={index} className="w-full border-2 border-text_grey_3 flex flex-col justify-between rounded-xl py-8 px-4 gap-4">
+                        return <div
+                            data-aos="zoom-in"
+                            data-aos-duration="600"
+                            data-aos-delay={index * 300}
+                            key={index} className="w-full border-2 border-text_grey_3 flex flex-col justify-between rounded-xl py-8 px-4 gap-4">
                             <div className="w-full flex flex-col gap-4">
                                 <h5 className="font-medium text-xl text-white">{x?.text}</h5>
                                 <h4 className="text-sm text-text_grey_1 font-light">{x?.subtext}</h4>

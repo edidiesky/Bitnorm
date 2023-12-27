@@ -7,7 +7,12 @@ const Platform = () => {
 
             <div className="py-4 w-full flex justify-center items-center">
                 <div className="mx-auto items-start grid gap-y-12 sm:gap-y-12 grid-cols-1 gap-x-4 lg:gap-y-0 sm:grid-cols-1 md:grid-cols-2">
-                    <div className="w-full py-12 px-8 flex flex-col gap-12 bg-text_grey_3 rounded-2xl">
+                    <div
+                        data-aos="fade-in"
+                        data-aos-duration="1100"
+                        data-aos-delay={"300"}
+
+                        className="w-full py-12 px-8 flex flex-col gap-12 bg-text_grey_3 rounded-2xl">
                         <h3 className="text-4xl font-sans sm:text-5xl md:text-6xl text-white font-medium">
                             We are here to help
 
@@ -19,6 +24,9 @@ const Platform = () => {
                     </div>
 
                     <Image
+                        data-aos="fade-in"
+                        data-aos-duration="1100"
+                        data-aos-delay={"680"}
                         alt="Cotion"
                         className='w-full'
                         width={0}
