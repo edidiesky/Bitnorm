@@ -7,17 +7,25 @@ const Platform = () => {
 
             <div className="py-4 w-full ">
                 <div className="w-full grid gap-y-12 sm:gap-y-12 grid-cols-1 gap-x-4 lg:gap-y-0 sm:grid-cols-1 md:grid-cols-2">
-                    <div className="w-full py-12 px-8 flex flex-col gap-12 bg-text_grey_3 rounded-2xl">
+                    <div
+                        data-aos="fade-in"
+                        data-aos-duration="1000"
+                        data-aos-delay="600"
+                        className="w-full py-12 px-8 flex flex-col gap-12 bg-text_grey_3 rounded-2xl">
                         <h3 className="text-4xl font-sans sm:text-5xl md:text-6xl text-white font-medium">
                             Get a full overview
 
-                           
+
                         </h3>
                         <span className="block leading-loose font-sans py-2 font-light text-sm text-text_grey_1">
                             We provide a comprehensive overview of any cryptocurrency to help you make informed decisions in investing and trading. Our team of cryptocurrency analysis experts conducts in-depth research on each cryptocurrency to provide you with complete information on its potential and risks. We provide all the necessary information, including historical data, current price, analytical reports, news, and much more.
                         </span>
                     </div>
-                    <div className="flex w-full px-4 py-12 flex-col gap-12 items-center justify-between border-2 rounded-xl border-text_grey_3">
+                    <div
+                        data-aos="fade-in"
+                        data-aos-duration="1000"
+                        data-aos-delay="800"
+                        className="flex w-full px-4 py-12 flex-col gap-12 items-center justify-between border-2 rounded-xl border-text_grey_3">
                         <Image
                             alt="Cotion"
                             className='w-full'
@@ -37,7 +45,7 @@ const Platform = () => {
                             src='/overview_bottom.svg'
                         />
                     </div>
-               </div>
+                </div>
             </div>
 
         </div>
