@@ -24,13 +24,23 @@ const offferlist = [
 const Platform = () => {
     return <div className="w-full bg-custom_1 py-4 flex justify-center items-center">
         <div className="w-custom mx-auto flex flex-col items-start gap-16 max-w-custom">
-            <h2 className="text-4xl text-start sm:w-full sm:mx-0 md:w-4/5 md:mx-auto sm:text-6xl font-sans font-medium text-white">
-                We offer a range of features such as:
-            </h2>
+            <div className="w-full overflow-hidden">
+                <h2
+                    data-aos="fade-up"
+                    data-aos-duration="700"
+                    data-aos-delay="400"
+                    className="text-4xl text-start sm:w-full sm:mx-0 md:w-4/5 md:mx-auto sm:text-6xl font-sans font-medium text-white">
+                    We offer a range of features such as:
+                </h2>
+            </div>
             <div className="py-4 sm:w-full sm:mx-0 md:w-4/5 md:mx-auto grid grid-cols-1 sm:grid-cols-1 gap-x-4 gap-y-16 md:grid-cols-2">
                 {
                     offferlist?.map((x?: any, index?: any) => {
-                        return <div key={index} className="w-full bg-custom_1 border-2 border-text_grey_3 flex flex-col rounded-3xl py-4 pt-8 px-4 gap-12">
+                        return <div
+                            data-aos="fade-in"
+                            data-aos-duration="1100"
+                            data-aos-delay={index * 350}
+                            key={index} className="w-full bg-custom_1 border-2 border-text_grey_3 flex flex-col rounded-3xl py-4 pt-8 px-4 gap-12">
                             <div className="w-full flex flex-col gap-4">
                                 <h3 className="text-2xl md:text-3xl leading-relaxed font-medium text-white">{x?.text}</h3>
                             </div>

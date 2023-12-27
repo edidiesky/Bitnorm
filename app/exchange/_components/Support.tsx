@@ -16,10 +16,21 @@ const supportList = [
 const Support = () => {
     return <div className="w-full bg-custom_1 py-40">
         <div className="w-custom mx-auto flex flex-col items-start gap-8 max-w-custom">
-            <h2 className="text-4xl text-start sm:w-full sm:mx-0 md:w-4/5 md:mx-auto sm:text-6xl font-sans font-medium text-white">
-                In our community
-            </h2>
-            <div className="py-4 sm:w-full sm:mx-0 md:w-4/5 md:mx-auto grid grid-cols-1 sm:grid-cols-1 gap-y-16 md:grid-cols-2">
+            <div className="w-full overflow-hidden">
+                <h2
+                    data-aos="fade-up"
+                    data-aos-duration="700"
+                    data-aos-delay="400"
+                    className="text-4xl text-start sm:w-full sm:mx-0 md:w-4/5 md:mx-auto sm:text-6xl font-sans font-medium text-white">
+                    In our community
+                </h2>
+            </div>
+            <div className="w-full overflow-hidden">
+            <div 
+                    data-aos="fade-in"
+                    data-aos-duration="1000"
+                    data-aos-delay="600"
+            className="py-4 sm:w-full sm:mx-0 md:w-4/5 md:mx-auto grid grid-cols-1 sm:grid-cols-1 gap-y-16 md:grid-cols-2">
              
                 <div className="w-full bg-text_grey_3  sm:rounded-l-none md:rounded-l-3xl lg:rounded-l-3xl flex flex-col gap-8 py-8 px-8">
                     <div className="w-full flex flex-col gap-4">
@@ -39,6 +50,7 @@ const Support = () => {
                     />
                 </div>
 
+            </div>
             </div>
 
         </div>
