@@ -154,8 +154,8 @@ const Support = () => {
                     <div className="w-full flex items-center">
 
                         <span className="
-                    w-[152px] relative  flex items-center justify-center flex-col
-                    ">
+                          w-[62px] relative  flex items-center justify-center flex-col
+                        ">
                         </span>
                         <div className="w-full border-2 border-text_grey_3 flex flex-col items-center justify-between py-8 px-4 gap-4">
 
@@ -175,17 +175,17 @@ const Support = () => {
                             </div>
                         </div>
                         <span className="
-                    w-[112px] h-[175px] relative flex items-center justify-center flex-col
-                    before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
-                    ">
-                            <div className="absolute w-[12px] h-[12px] rounded-full bg-text_blue_1 right-[1%]"></div>
+                        w-[112px] h-[175px] relative flex items-center justify-center flex-col
+                        before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
+                        ">
+                            <div className="absolute w-[12px] h-[12px] rounded-full bg-text_blue_1 right-[20%]"></div>
                         </span>
                     </div>
 
                     <div className="w-full flex items-center">
 
                         <span className="
-                    w-[112px] h-[175px] relative flex items-center justify-center flex-col
+                    w-[42px] h-[175px] relative flex items-center justify-center flex-col
                     before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
                     ">
                         </span>
@@ -210,16 +210,11 @@ const Support = () => {
                     w-[112px] h-[175px] relative flex items-center justify-center flex-col
                     before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
                     ">
+                            <div className="absolute w-[12px] h-[12px] rounded-full bg-text_blue_1 right-[40%]"></div>
                         </span>
 
                     </div>
                     <div className="w-full flex items-center">
-
-                        <span className="
-                    w-[112px] h-[175px] relative flex items-center justify-center flex-col
-                    before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
-                    ">
-                        </span>
                         <div className="w-full border-2 border-text_grey_3 flex flex-col items-center justify-between py-8 px-4 gap-4">
 
                             <Image
@@ -238,8 +233,7 @@ const Support = () => {
                             </div>
                         </div>
                         <span className="
-                    w-[112px] h-[175px] relative flex items-center justify-center flex-col
-                    before:block before:w-full before:border-2 before:border-dotted before:border-text_grey_3
+                     w-[162px] h-[175px] relative flex items-center justify-center flex-col
                     ">
                         </span>
 
